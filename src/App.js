@@ -9,14 +9,14 @@ import SignUp from './pages/signup';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />
         <Route path='/sign-up' component={SignUp} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
