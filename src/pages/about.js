@@ -1,6 +1,6 @@
 import React from 'react';
   
-const About = () => {
+const about = () => {
   return (
     <div
       style={{
@@ -15,4 +15,4 @@ const About = () => {
   );
 };
   
-export default About;
+export default about;
