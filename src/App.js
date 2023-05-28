@@ -11,12 +11,10 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <About />
-      
       <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/' exact element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
     </Router>
   );
